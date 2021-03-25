@@ -62,6 +62,11 @@ function getArrayCsv(csv) {
  */
 function distanceFromGrenoble(ville) {
     console.log('implement me !');
+    // Définir 2 points
+    // 1 point fixe <- pour Grenoble
+    // 1 point variable <- pour la ville
+
+
     return 0;
 }
 
@@ -73,6 +78,11 @@ function distanceFromGrenoble(ville) {
  * @return vrai si la ville i est plus proche
  */
 function isLess(i, j) {
+    // Si Distance A plus proche de Grenoble > Distance B de Grenoble
+    // dist(A,Grenoble) > dist(B,Grenoble)
+
+    // Si Distance A de Grenoble < Distance B plus proche de Grenoble
+    // dist(A,Grenoble) < dist(B,Grenoble)
     console.log('implement me !');
     return true;
 }
